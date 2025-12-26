@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Share2, Target, Globe, Smartphone, ArrowRight } from "lucide-react";
 import { Layout } from "@/components/Layout";
+import { SEO } from "@/components/SEO";
 import { ServiceCard } from "@/components/ServiceCard";
 import { SocialMediaModal } from "@/components/modals/SocialMediaModal";
 import { AdsModal } from "@/components/modals/AdsModal";
@@ -52,6 +53,11 @@ export default function Home() {
 
   return (
     <Layout>
+      <SEO 
+        title="Digital Marketing & Technology Services"
+        description="Shyara Marketing helps businesses grow through social media management, advertising campaigns, website development, and app development with clarity, consistency, and measurable results."
+        canonical="/"
+      />
       {/* Hero Section */}
       <section className="relative py-20 lg:py-32 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-accent/5 via-transparent to-transparent" />

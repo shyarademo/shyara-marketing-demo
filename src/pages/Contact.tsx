@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Layout } from "@/components/Layout";
+import { SEO } from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -61,6 +62,11 @@ Phone: ${formData.phone || "Not provided"}`;
 
   return (
     <Layout>
+      <SEO 
+        title="Contact Us"
+        description="Get in touch with Shyara Marketing. Share your requirements and let us help you choose the right digital marketing and technology solution for your business."
+        canonical="/contact"
+      />
       {/* Hero Section */}
       <section className="py-16 lg:py-24">
         <div className="container">

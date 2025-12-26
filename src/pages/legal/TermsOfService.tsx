@@ -1,8 +1,14 @@
 import { Layout } from "@/components/Layout";
+import { SEO } from "@/components/SEO";
 
 export default function TermsOfService() {
   return (
     <Layout>
+      <SEO 
+        title="Terms of Service"
+        description="Read the terms and conditions for using Shyara Marketing services including social media management, advertising, website, and app development."
+        canonical="/terms-of-service"
+      />
       <section className="py-16 lg:py-20">
         <div className="container">
           <div className="max-w-3xl mx-auto">

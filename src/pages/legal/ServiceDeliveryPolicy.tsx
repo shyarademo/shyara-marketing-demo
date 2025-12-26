@@ -1,8 +1,14 @@
 import { Layout } from "@/components/Layout";
+import { SEO } from "@/components/SEO";
 
 export default function ServiceDeliveryPolicy() {
   return (
     <Layout>
+      <SEO 
+        title="Service Delivery Policy"
+        description="Learn how Shyara Marketing delivers digital marketing and technology services including timelines, delivery methods, and support."
+        canonical="/service-delivery-policy"
+      />
       <section className="py-16 lg:py-20">
         <div className="container">
           <div className="max-w-3xl mx-auto">

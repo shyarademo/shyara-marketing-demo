@@ -1,8 +1,14 @@
 import { Layout } from "@/components/Layout";
+import { SEO } from "@/components/SEO";
 
 export default function PrivacyPolicy() {
   return (
     <Layout>
+      <SEO 
+        title="Privacy Policy"
+        description="Learn how Shyara Marketing collects, uses, and protects your personal information. We are committed to safeguarding your privacy."
+        canonical="/privacy-policy"
+      />
       <section className="py-16 lg:py-20">
         <div className="container">
           <div className="max-w-3xl mx-auto">
