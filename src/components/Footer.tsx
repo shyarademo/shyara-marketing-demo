@@ -9,11 +9,11 @@ export function Footer() {
           {/* Brand */}
           <div className="md:col-span-2">
             <Link to="/" className="flex items-center mb-4">
-              <div className="h-7 w-18 overflow-hidden flex items-center justify-center">
+              <div className="h-9 w-22 overflow-hidden flex items-center justify-center">
                 <img 
                   src={shyaraLogo} 
                   alt="Shyara" 
-                  className="h-18 w-auto dark:invert" 
+                  className="h-22 w-auto dark:invert" 
                 />
               </div>
               <span className="text-xl font-bold text-accent">Marketing</span>
