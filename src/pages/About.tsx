@@ -1,4 +1,5 @@
 import { Layout } from "@/components/Layout";
+import { SEO } from "@/components/SEO";
 import { CheckCircle, Users, Target, Shield } from "lucide-react";
 
 const values = [
@@ -27,6 +28,11 @@ const values = [
 export default function About() {
   return (
     <Layout>
+      <SEO 
+        title="About Us"
+        description="Shyara Marketing is a digital marketing and technology services brand under Shyara Tech Solutions (OPC) Pvt. Ltd., built on trust, clarity, and execution."
+        canonical="/about"
+      />
       {/* Hero Section */}
       <section className="py-16 lg:py-24">
         <div className="container">

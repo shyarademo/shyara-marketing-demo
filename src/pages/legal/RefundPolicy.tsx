@@ -1,8 +1,14 @@
 import { Layout } from "@/components/Layout";
+import { SEO } from "@/components/SEO";
 
 export default function RefundPolicy() {
   return (
     <Layout>
+      <SEO 
+        title="Refund & Cancellation Policy"
+        description="Understand Shyara Marketing's refund and cancellation policy for digital marketing and technology services, subscriptions, and one-time engagements."
+        canonical="/refund-policy"
+      />
       <section className="py-16 lg:py-20">
         <div className="container">
           <div className="max-w-3xl mx-auto">

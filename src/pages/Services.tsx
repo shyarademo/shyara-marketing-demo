@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Share2, Target, Globe, Smartphone } from "lucide-react";
 import { Layout } from "@/components/Layout";
+import { SEO } from "@/components/SEO";
 import { ServiceCard } from "@/components/ServiceCard";
 import { SocialMediaModal } from "@/components/modals/SocialMediaModal";
 import { AdsModal } from "@/components/modals/AdsModal";
@@ -39,6 +40,11 @@ export default function Services() {
 
   return (
     <Layout>
+      <SEO 
+        title="Services"
+        description="Explore our comprehensive digital services including social media management, advertising campaign management, website development, and app development tailored to your business needs."
+        canonical="/services"
+      />
       {/* Hero Section */}
       <section className="py-16 lg:py-24">
         <div className="container">
