@@ -16,8 +16,8 @@ const offerings = [
       "Consultant or coach website",
       "Wedding or event website",
     ],
-    cta: "Add Basic Site",
-    ctaMessage: "add a Basic Website",
+    cta: "Enquire on WhatsApp",
+    ctaMessage: "enquire about a Basic Website",
   },
   {
     name: "E-commerce / Booking Website",
@@ -28,8 +28,8 @@ const offerings = [
       "Restaurant ordering & table booking",
       "Yoga or fitness class booking",
     ],
-    cta: "Add E-commerce Site",
-    ctaMessage: "add an E-commerce Website",
+    cta: "Enquire on WhatsApp",
+    ctaMessage: "enquire about an E-commerce Website",
   },
   {
     name: "Custom Website",
@@ -40,7 +40,7 @@ const offerings = [
       "Learning management system (LMS)",
       "Healthcare or construction project portal",
     ],
-    cta: "Get Custom Quote",
+    cta: "Get Quote on WhatsApp",
     ctaMessage: "get a quote for a Custom Website",
   },
 ];

@@ -88,14 +88,14 @@ export function AdsModal({ open, onOpenChange }: AdsModalProps) {
 
         <div className="flex flex-col sm:flex-row gap-3 mt-6">
           <Button 
-            onClick={() => openWhatsApp("add Ad Management")}
+            onClick={() => openWhatsApp("enquire about Ad Management")}
             className="flex-1 bg-accent hover:bg-accent/90 text-accent-foreground"
           >
-            Add Ad Management
+            Enquire on WhatsApp
           </Button>
           <Button 
             variant="outline" 
-            onClick={() => openWhatsApp("discuss my campaign")}
+            onClick={() => openWhatsApp("discuss my ad campaign")}
             className="flex-1"
           >
             Discuss Campaign

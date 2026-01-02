@@ -18,8 +18,8 @@ const offerings = [
       "Educational content or notes app",
       "Community or blog app",
     ],
-    cta: "Add Basic App",
-    ctaMessage: "add a Basic App",
+    cta: "Enquire on WhatsApp",
+    ctaMessage: "enquire about a Basic App",
   },
   {
     name: "Custom App",
@@ -33,7 +33,7 @@ const offerings = [
       "Fitness tracking app",
       "On-demand service app",
     ],
-    cta: "Get Custom Quote",
+    cta: "Get Quote on WhatsApp",
     ctaMessage: "get a quote for a Custom App",
   },
 ];
